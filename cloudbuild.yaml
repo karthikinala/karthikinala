@@ -1,5 +1,5 @@
 steps:
 - name: gcr.io/cloud-builders/git
-  args: ['fetch', '--unshallow']
+  args: ['fetch', '--unshallow', 'bash', './new.sh']
 - name: 'bash'
-  args: ['./new.sh']
+  args: ['ls -ltr']
