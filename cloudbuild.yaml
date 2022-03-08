@@ -4,5 +4,5 @@ steps:
   args: 
      - -c
      - git branch &&
-     - chmod +x new.sh &&
+     - chmod +x new.sh 
      - ./new.sh
