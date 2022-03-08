@@ -4,5 +4,6 @@ steps:
   args: 
      - -c
      - git branch
+     - git checkout develop
      - chmod +x new.sh
      - ./new.sh
