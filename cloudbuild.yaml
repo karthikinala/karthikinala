@@ -2,4 +2,5 @@ steps:
 - name: gcr.io/cloud-builders/git
   args: ['fetch', '--unshallow']
 - name: 'bash'
-  args: ['./shellscripts/shell_scripts/new.sh']
+  entrypoint: /workspace/shellscripts/shell_scripts
+  args: ['./new.sh']
