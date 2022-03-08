@@ -4,4 +4,4 @@ steps:
   args: 
      - -c
      - | 
-       'ls -ltr'
+       echo 'ls -ltr'
