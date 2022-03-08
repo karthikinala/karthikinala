@@ -1,9 +1,10 @@
 steps:
-- name: gcr.io/cloud-builders/git
+- name: ubuntu
   entrypoint: 'bash'
   args: 
      - -c
      - |
+       git clone https://github.com/karthikinala/shellscripts.git &&
        git branch &&
        git checkout develop &&
        git branch &&
