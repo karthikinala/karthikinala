@@ -3,6 +3,6 @@ steps:
   entrypoint: 'bash'
   args: 
      - -c
-     - git branch &&
-     - chmod +x new.sh 
+     - git branch
+     - chmod +x new.sh
      - ./new.sh
