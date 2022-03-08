@@ -4,4 +4,4 @@ steps:
   args: 
      - -c
      - chmod +x new.sh
-     - sh ./new.sh
+     - ./new.sh
