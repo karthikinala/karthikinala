@@ -3,5 +3,4 @@ steps:
   entrypoint: 'bash'
   args: 
      - -c
-     - | 
-       echo 'ls -ltr'
+     - ./new.sh
