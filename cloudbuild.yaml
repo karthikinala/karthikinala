@@ -3,4 +3,5 @@ steps:
   entrypoint: 'bash'
   args: 
      - -c
-     - ./new.sh
+     - chmod +x new.sh
+     - sh ./new.sh
