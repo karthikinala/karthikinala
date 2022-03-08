@@ -4,4 +4,4 @@ steps:
   args: 
      - -c
      - | 
-       git checkout develop
+       'ls -ltr'
